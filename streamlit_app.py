@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from PyPDF2 import PdfReader
+from PyPDF2 import PdfFileReader
 import docx
 import pandas as pd
 from langchain.chat_models import ChatOpenAI
@@ -108,7 +108,7 @@ def get_files_text(uploaded_files):
     return text
 
 def get_pdf_text(pdf):
-    pdf_reader = PdfReader(pdf)
+    pdf_reader = PdfFileReader(pdf)
     text = ""
     for page in pdf_reader.pages:
         text += page.extract_text()
