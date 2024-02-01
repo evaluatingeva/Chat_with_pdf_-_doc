@@ -1,0 +1,11 @@
+streamlit==1.14.0
+pyPDF2==1.26.0
+python-docx==0.8.11
+pandas==2.0.3
+langchain==0.0.251
+huggingface==4.11.2
+huggingface-hub==0.0.17
+streamlit-chat==0.1.1
+openai==0.27.8
+numpy==1.25.2
+faiss==1.7.1
