@@ -52,9 +52,9 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="File Chatify")
+    st.set_page_config(page_title="FileBot Chatify")
     
-    st.header("💬 Chatbot")
+    st.header("💬 Chat Filebot")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
@@ -63,7 +63,7 @@ def main():
     if "processComplete" not in st.session_state:
         st.session_state.processComplete = None
 
-    uploaded_files = st.file_uploader("Upload your file", type=['pdf', 'docx', 'xlsx', 'xls', 'csv', 'txt'], accept_multiple_files=True, key="file_uploader")
+    uploaded_files = st.file_uploader("Upload the file", type=['pdf', 'docx', 'xlsx', 'xls', 'csv', 'txt'], accept_multiple_files=True, key="file_uploader")
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     process = st.button("Process")
 
@@ -81,7 +81,7 @@ def main():
         st.session_state.processComplete = True
 
     if st.session_state.processComplete:
-        user_question = st.text_input("Ask Question about your files.")
+        user_question = st.text_input("Ask Question ")
         if user_question:
             handle_user_input(user_question)
 
@@ -189,6 +189,11 @@ def handle_user_input(user_question):
                 message(messages.content, is_user=True, key=str(i))
             else:
                 message(messages.content, key=str(i))
+st.markdown('''
+Made by Eva Saini,
+link("https://www.linkedin.com/in/eva-saini-b0909a24a", "@Eva")
+''')                
+                
 
 if __name__ == '__main__':
     main()
