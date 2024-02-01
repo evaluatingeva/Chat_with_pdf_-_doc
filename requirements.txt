@@ -3,6 +3,7 @@ pyPDF2==1.26.0
 python-docx==0.8.11
 pandas==2.0.3
 langchain==0.0.251
+transformers==4.11.2
 huggingface==4.11.2
 huggingface-hub==0.0.17
 streamlit-chat==0.1.1
