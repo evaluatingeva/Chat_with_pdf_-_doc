@@ -52,7 +52,9 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 def main():
     load_dotenv()
+    st.write("Before set_page_config")
     st.set_page_config(page_title="FileBot Chatify")
+    st.write("After set_page_config")
     
     st.header("💬 Chat Filebot")
 
