@@ -18,3 +18,4 @@ streamlit_lottie
 protobuf==3.20.0
 dominate
 htbuilder
+langchain_community
