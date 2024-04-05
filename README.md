@@ -1,5 +1,5 @@
                                                                     FileBot Chatify
-Welcome to FileBot, where file interactions meet natural language processing! This Streamlit-powered chatbot application redefines conversations by seamlessly integrating OpenAI's GPT-3.5-turbo with the ability to process a variety of file formats, including PDFs, DOCX, XLSX, CSV, and plain text. Engage in dynamic dialogues, ask questions about your uploaded files, and witness the magic unfold.
+Welcome to FileBot, where file interactions meet natural language processing! This Streamlit-powered chatbot application redefines conversations by seamlessly integrating OpenAI's GPT-3.5-turbo with the ability to process a variety of file formats, including PDFs, DOCX, XLSX, CSV, PPTX and plain text. Engage in dynamic dialogues, ask questions about your uploaded files, and witness the magic unfold.
 
 Key Features:
 Multi-File Conversations: Upload diverse files, from text-rich PDFs to structured spreadsheets, and watch as FileBot Chatify unlocks the potential of every document.
