@@ -7,7 +7,9 @@ Conversational Alchemy: Experience the art of conversation with OpenAI's GPT-3.5
 Interactive History: Follow the flow of the conversation with an interactive chat history, providing a detailed record of your engaging interactions.
 
 Installation & Contribution:
+Create a virtual env.
 Get started by installing dependencies with pip install -r requirements.txt.
+Then run the streamlit application using "streamlit run login.py"
 Contribute your ideas, enhancements, or bug fixes by opening issues or submitting pull requests. Your input shapes the evolution of FileBot Chatify!
 
 This project is licensed under the MIT License, empowering you to explore and innovate.
