@@ -15,8 +15,8 @@ from htbuilder.units import percent, px
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain import HuggingFaceHub
